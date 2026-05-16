@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/__init__.py
-src/app.py
-testes_pytest.egg-info/PKG-INFO
-testes_pytest.egg-info/SOURCES.txt
-testes_pytest.egg-info/dependency_links.txt
-testes_pytest.egg-info/top_level.txt
