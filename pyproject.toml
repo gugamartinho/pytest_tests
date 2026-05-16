@@ -1,14 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "testes_pytest"
 version = "0.1.0"
 description = "Projeto de testes automatizados com Pytest"
-authors = [{ name = "David", email = "gugamartinho@gmail.com" }]
-readme = "README.md"
-requires-python = ">=3.10"
+authors = [{name = "David"}]
+dependencies = ["pytest"]
 
-[tool.setuptools]
-packages = ["src"]
-
-pythonpath = ["src"]
+[tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
 addopts = "-v"
