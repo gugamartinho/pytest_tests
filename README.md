@@ -2,22 +2,27 @@
 
 ## Estrutura
 
-meu_projeto/
-├── src/
-│   ├── init.py
-│   └── app.py
-│
-├── tests/
-│   ├── unit/
-│   │   └── test_aplicar_desconto.py
-│   ├── fixtures/
-│   │   └── conftest.py
-│   └── helpers/
-│
-├── requirements.txt
+├── src
+│   ├── app.py
+│   └── __init__.py
+├── testes_pytest.egg-info
+│   ├── dependency_links.txt
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   └── top_level.txt
+└── tests
+    ├── fixtures
+    │   └── conftest.py
+    ├── helpers
+    ├── integration
+    └── unit
+        ├── test_aplicar_desconto_fixtures.py
+        ├── test_aplicar_desconto_paremetrizado.py
+        └── test_aplicar_desconto.py
 ├── pyproject.toml
 ├── pytest.ini
-└── README.md
+├── README.md
+├── requirements.txt
 
 
 ## Instalação
